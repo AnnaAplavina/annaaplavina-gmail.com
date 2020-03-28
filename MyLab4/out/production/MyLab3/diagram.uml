@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="313.8854166666667" y="222.0">ITimeCirclesCalculator</node>
+    <node x="96.68402777777777" y="211.0">TimeOfDay</node>
+    <node x="537.8854166666667" y="169.0">Troll</node>
+    <node x="317.3854166666667" y="485.0">TimeCirclesCalculator</node>
+    <node x="581.1666666666667" y="464.0">MumiTroll</node>
+    <node x="97.38541666666669" y="422.0">Occasion</node>
+    <node x="1.6666666666666288" y="702.0">SpecialDate</node>
+    <node x="305.88541666666674" y="695.0">Ritual</node>
+    <node x="683.3854166666667" y="0.0">Emotion</node>
+    <node x="543.6354166666667" y="33.0">ITroll</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MumiTroll" target="Troll">
+      <point x="-69.0" y="-69.5" />
+      <point x="615.6666666666667" y="397.0" />
+      <point x="589.6354166666667" y="397.0" />
+      <point x="-51.75" y="101.5" />
+    </edge>
+    <edge source="SpecialDate" target="Occasion">
+      <point x="0.0" y="-58.5" />
+      <point x="108.0" y="675.0" />
+      <point x="122.38541666666669" y="675.0" />
+      <point x="-75.0" y="111.5" />
+    </edge>
+    <edge source="TimeCirclesCalculator" target="ITimeCirclesCalculator">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="Troll" target="ITroll">
+      <point x="-51.75" y="-101.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="416.83333333333326" y="509.66666666666663" />
+  <SelectedNodes>
+    <node>SpecialDate</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
